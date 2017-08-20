@@ -13,6 +13,9 @@ namespace Terra.World
         /// </summary>
         public string Title { get; set; }
 
+        /// <summary>
+        /// Die Felder der Spielkarte.
+        /// </summary>
         private List<Field> _fields;
     }
 }
